@@ -1,0 +1,9 @@
+.modal-icon-close {
+    transition: fill var(--timing-duration) var(--timing-function);
+
+    .modal-close-btn:hover .modal-icon-close,
+    .modal-close-btn:focus .modal-icon-close {
+        fill: var(--accent-color);
+    }
+}
+
