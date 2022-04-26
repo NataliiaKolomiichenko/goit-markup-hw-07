@@ -28,18 +28,19 @@
     }
 }
 
-.nav-list {
+.nav {
+    display: flex;
+    align-items: center;
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
+    
 
 }
 
-.nav-list .list {
+.nav-list {
     display: flex;
     align-items: center;
 }

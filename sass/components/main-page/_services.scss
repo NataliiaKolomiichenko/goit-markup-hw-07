@@ -1,17 +1,17 @@
-.services .title {
+.services-title {
     margin-bottom: 50px;
 }
 
-.services .list {
+.services-list {
     display: flex;
     align-items: center;
 }
 
-.services .list-item:not(:last-child) {
+.services-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.services.section {
+.services {
     padding-top: 0;
 }
 
